@@ -91,7 +91,7 @@ export class UserController {
   @ApiBody({
     schema: {
       type: 'object',
-      properties: { nickname: { type: "string" }, upw: { type: "string" }, profileImg: { type: "string", format: "binary" }, introduce: { type: "string" } }
+      properties: { nickname: { type: "string" }, profileImg: { type: "string", format: "binary" }, introduce: { type: "string" } }
     }
   })
   @Put("mod/:id")
